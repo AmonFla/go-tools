@@ -1,9 +1,9 @@
 package tools
 
 /*
-	Busca un elemento en un array
+	Busca un string en un array
 */
-func InStringArray(needle string, haystack []string) bool {
+func StringInArray(needle string, haystack []string) bool {
 	for _, value := range haystack {
 		if value == needle {
 			return true
